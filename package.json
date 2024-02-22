@@ -1,0 +1,30 @@
+{
+  "name": "github_automation_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test-chromium": "playwright test --project=chromium",
+    "test-chromium-html-report": "playwright test --project=chromium --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifilininhd/github_automation_tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifilininhd/github_automation_tests/issues"
+  },
+  "homepage": "https://github.com/ifilininhd/github_automation_tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "csv-parse": "^5.4.0"
+  }
+}

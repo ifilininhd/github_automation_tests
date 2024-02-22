@@ -1,0 +1,9 @@
+"number","login","password"
+"1","wrong_login@","correct_password"
+"2","correct_login","wrong_password"
+"3","","correct_password"
+"4","correct_login",""
+"5"," ","correct_password"
+"6","correct_login"," "
+
+
