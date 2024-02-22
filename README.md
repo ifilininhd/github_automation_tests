@@ -17,7 +17,7 @@ docker build -t playwright-tests .
 
 And finally, run the tests in the container using the command
 ```bash
-docker run playwright-tests
+docker run -it --rm playwright-tests
 ```
 
 ###Local Launch:
