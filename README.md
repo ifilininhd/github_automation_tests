@@ -4,10 +4,12 @@
 
 Before running the automated tests, it is necessary to fill out the .env file.
 The parameters for filling can be taken from the .env.example file.
+
 USERNAME - your GitHub login
+
 PASSWORD - your GitHub account password
 
-###Docker Launch:
+### Docker Launch:
 You must have Docker installed.
 
 Then you need to build the image using the command
@@ -20,7 +22,7 @@ And finally, run the tests in the container using the command
 docker run -it --rm playwright-tests
 ```
 
-###Local Launch:
+### Local Launch:
 For local launch, you need to install Playwright using the command
 ```bash
 npm init playwright@latest
